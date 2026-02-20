@@ -1,0 +1,63 @@
+header .conteiner {
+    width: 1400px;
+
+
+}
+
+header .header_inner {
+    background: #1E0044;
+    border-radius: 10px;
+}
+
+.header_list {
+    display: flex;
+
+
+}
+
+
+
+
+.header_inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 8px 16px 8px;
+    gap: 300px;
+
+
+
+
+}
+
+
+
+ul a {
+    font-size: 18px;
+    font: 500;
+}
+
+
+.header_list {
+    display: flex;
+    gap: 50px;
+
+}
+
+
+
+.header_link {
+    position: relative;
+    right: 40px;
+}
+
+
+
+
+.header_button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+
+}
