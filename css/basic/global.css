@@ -42,10 +42,9 @@ body {
 
 
 .text_logo {
-    display: inline-block;
+    display:block;
     color: white;
-    max-width: 900px;
-    margin: 20px 275px;
+    margin:20px 0;
 
 }
 
@@ -63,7 +62,7 @@ body {
 
 
 .text_logo .conteiner span {
-    font-family: var(--third-family);
+   font-family: 'Georgia Italic';
     background: linear-gradient(90deg, #8338ec 0%, #b923ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -144,7 +143,10 @@ body {
     padding: 36px;
     gap: 10px;
 }
-
+.cards p{
+    letter-spacing: 1.6px;
+    font-weight: 200;
+}
 .cards span {
     width: 616px;
     font-size: 14px;
@@ -200,7 +202,7 @@ body {
 
 .sector_theere .conteiner {
     background-image: url(../../img/back.png);
-    width: 1400px;
+    max-width: 1400px;
     height: 600px;
     border-radius: 40px;
     margin-top: 40px;
