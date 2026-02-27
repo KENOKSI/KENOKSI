@@ -62,9 +62,9 @@ body {
 
 
 .text_logo .conteiner span {
-font-family: 'Georgia Bold';
+ font-family: 'Georgia Italic';
     font-style: normal;
-    font-weight: 200;
+    font-weight: normal;
     background: linear-gradient(90deg, #8338ec 0%, #b923ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -78,7 +78,8 @@ font-family: 'Georgia Bold';
     font-weight: 400;
     padding: 0px 42px;
     bottom: 30px;
-    width: 580px;
+    max-width: 580px;
+   line-height: 1.2;
 
 }
 
@@ -169,7 +170,7 @@ font-family: 'Georgia Bold';
     display: flex;
 
     padding-top: 25px;
-    gap: 20px;
+    gap: 5px;
 
 
 }
@@ -282,6 +283,7 @@ font-family: 'Georgia Bold';
     border: 1px solid var(--DeepVoid);
     padding: 10px;
     border-radius: 20px;
+    display: block;
 }
 
 .sector_theere button {
@@ -291,7 +293,7 @@ padding-top: 50px;
     border: 2px solid var(--DeepVoid);  
     padding: 10px;
     border-radius: 20px;
-    margin-top: 90px;
+    margin-top: 70px;
 
 
 
@@ -537,4 +539,10 @@ padding-bottom: 20px;
 .award-icon {
     font-size: 1.8rem;
     font-weight: 300;
+}
+
+.flex_span{
+    display: flex;
+    justify-content: flex-end;
+    gap:2px;
 }

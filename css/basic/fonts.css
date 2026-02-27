@@ -48,7 +48,7 @@
     font-family: 'Georgia Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Georgia Italic'), url('georgiai.woff') format('woff');
+    src: local('Georgia Italic'), url('../../fonts/georgiai.woff') format('woff');
     }
     
 
@@ -56,7 +56,7 @@
     font-family: 'Georgia Bold';
     font-style: normal;
     font-weight: 500;
-    src: local('Georgia Bold'), url('../../fonts/georgiai.woff') format('woff');
+    src: local('Georgia Bold'), url('') format('woff');
     }
     
 
