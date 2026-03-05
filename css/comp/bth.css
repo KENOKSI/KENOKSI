@@ -1,7 +1,17 @@
-.header_button{
-    font-size: 16px;
-    font: 500px;
-    border: solid 2px #ffffff;
-    padding: 10px 14px 10px 14px;
-    border-radius: 19px;
+.header_Button{
+    display: flex;
+    border: none;
+    background: #2563EB;
+    color: rgb(255, 255, 255);
+    padding: 12px 36px 12px 12px;
+    border-radius: 8px;
+align-items: center;
+font-family: 'Roboto-med';
+   
+}
+.header_Button img{
+    position: relative;
+    left: 20px;
+    font-family: 'Roboto-med';
+    
 }
